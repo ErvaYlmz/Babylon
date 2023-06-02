@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Babylon Denemesi</title>
+    <!--<link rel="stylesheet" href="ödev.css">-->
+    <link rel="stylesheet" href="sondeneme.css">
+</head>
+
+<body>
+
+    <header>
+        <div id="top-nav">
+            <a href="#">
+                <img src="https://www.primefaces.org/babylon-ng/assets/layout/images/logo-white.png" width="100%"
+                    alt="Babylon icon"></a>
+        </div>
+        <div onclick="myFunction()" id="toggle"></div>
+    </header>
+
+    <main>
+        <nav id="navbar">
+            <ul>
+                <p>Home Page</p>
+                <li><a href="#">Dashboard</a></li>
+
+                <p>UI Kit</p>
+                <li><a href="#">Form Layout</a></li>
+                <li><a href="#">Input</a></li>
+                <li><a href="#">Float Label</a></li>
+                <li><a href="#">Invalid State</a></li>
+                <li><a href="#">Button</a></li>
+                <li><a href="#">Table</a></li>
+                <li><a href="#">List</a></li>
+                <li><a href="#">Tree</a></li>
+                <li><a href="#">Panel</a></li>
+                <li><a href="#">Overlay</a></li>
+                <li><a href="#">Media</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Message</a></li>
+                <li><a href="#">File</a></li>
+                <li><a href="#">Chart</a></li>
+                <li><a href="#">Misc</a></li>
+
+                <p>PrimeBlocks</p>
+                <li><a href="#">Free Blocks</a></li>
+                <li><a href="#">All Blocks</a></li>
+
+                <p>Utilities</p>
+                <li><a href='#'>PrimeIcons</a></li>
+                <li><a href='#'>PrimeFlex</a></li>
+
+                <p>Pages</p>
+                <li><a href='#'>Crud</a></li>
+                <li><a href='#'>Calender</a></li>
+                <li><a href='#'>Timeline</a></li>
+                <li><a href='#'>Landing</a></li>
+                <li><a href='#'>Login</a></li>
+                <li><a href='#'>Invoice</a></li>
+                <li><a href='#'>Help</a></li>
+                <li><a href='#'>Wizard</a></li>
+                <li><a href='#'>Error</a></li>
+                <li><a href='#'>Not Found</a></li>
+                <li><a href='#'>Access Denied</a></li>
+                <li><a href='#'>Empty</a></li>
+
+
+                <p>Hierarchy</p>
+                <li><a href='#'>Submenu 1</a></li>
+                <li><a href='#'>Submenu 2</a></li>
+
+                <p>Get Started</p>
+                <li><a href='#'>Documantation</a></li>
+                <li><a href='#'>Buy Now</a></li>
+            </ul>
+        </nav>
+
+        <section>
+            <div>Dashboard</div>
+
+            <div>
+                <div class="container">
+                    <div>Sales</div>
+                    <div>Views</div>
+                    <div>Users</div>
+                    <div>Check-Ins</div>
+                </div>
+
+                <div class="table-article">
+                    <table>
+                        <tr>
+                            <th>Code</th>
+                            <th>Name</th>
+                            <th>Category</th>
+                            <th>Quantity</th>
+                        </tr>
+                        <tr>
+                            <td>f230fh0g3</td>
+                            <td>Bamboo Watch</td>
+                            <td>Accessories</td>
+                            <td>24</td>
+                        </tr>
+                        <tr>
+                            <td>nvklal433</td>
+                            <td>Black Watch</td>
+                            <td>Accessories</td>
+                            <td>61</td>
+                        </tr>
+                        <tr>
+                            <td>zz21cz3c1</td>
+                            <td>Blue Band</td>
+                            <td>Fitness</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>244wgerg2</td>
+                            <td>Blue T-Shirt</td>
+                            <td>Clothing</td>
+                            <td>25</td>
+                        </tr>
+                        <tr>
+                            <td>h456wer53</td>
+                            <td>Bracelet</td>
+                            <td>Accessories</td>
+                            <td>73</td>
+                        </tr>
+                        <tr>
+                            <td>av2231fwg</td>
+                            <td>Brown Purse</td>
+                            <td>Accessories</td>
+                            <td>0</td>
+                        </tr>
+                        <tr>
+                            <td>bib30pfym</td>
+                            <td>Chakra Bracelet</td>
+                            <td>Accessories</td>
+                            <td>5</td>
+                        </tr>
+                        <tr>
+                            <td>mbvjkgip5</td>
+                            <td>Galaxy Earrings</td>
+                            <td>Accessories</td>
+                            <td>23</td>
+                        </tr>
+                        <tr>
+                            <td>vbb124btr</td>
+                            <td>Game Controller</td>
+                            <td>Electronics</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>cm230f032</td>
+                            <td>Game Set</td>
+                            <td>Electronics</td>
+                            <td>63</td>
+                        </tr>
+                    </table>
+                    <article>Arlene Welch</article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script>
+        const toggle = document.getElementById('toggle');
+        const navbar = document.getElementById('navbar');
+        const topNav = document.getElementById('top-nav');
+        toggle.onclick = function () {
+            toggle.classList.toggle('active');
+            navbar.classList.toggle('active');
+            topNav.classList.toggle('active');
+        }
+    </script>
+</body>
+
+</html>
